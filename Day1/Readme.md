@@ -1,5 +1,6 @@
 # First steps in JEE
 ## What is JEE
+
 JEE, or Java Platform, Enterprise Edition, is a set of specifications, extending Java SE (Standard Edition) with specifications for enterprise features such as distributed computing and web services. JEE applications are typically layered applications, including a client-side user interface, business logic, and data storage and retrieval functionality.
 
 With JEE, developers can create large-scale, multi-tiered, scalable, reliable, and secure network applications. It is designed to support the development of web services and enterprise applications.
