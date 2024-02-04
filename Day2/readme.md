@@ -57,16 +57,16 @@ For Java EE (Enterprise Edition) projects, Maven can manage dependencies such as
 JUnit is a popular framework for unit testing in Java. Maven can manage JUnit dependencies and run tests as part of the build lifecycle. Here's how you might include JUnit in your pom.xml:
  
  ###### Ex :for  adding Junit 4 to pom.xml
- <dependencies>
-    <!-- JUnit dependency -->
-    <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version> <!-- Specify the desired JUnit version -->
-        <scope>test</scope> <!-- Indicates dependency is only for testing -->
-    </dependency>
-    <!-- Other dependencies here -->
-</dependencies>
+        <dependencies>
+            <!-- JUnit dependency -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version> <!-- Specify the desired JUnit version -->
+                <scope>test</scope> <!-- Indicates dependency is only for testing -->
+            </dependency>
+            <!-- Other dependencies here -->
+        </dependencies>
 
 ![ Junit concepts ](images/Junit.png)
 
