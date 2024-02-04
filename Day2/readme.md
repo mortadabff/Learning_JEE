@@ -34,7 +34,7 @@ Eclipse IDE is an integrated development environment (IDE) . It is one of the mo
 ## JDK 
 Java Development Kit (JDK): The JDK is a full-featured software development kit for Java, including everything needed to develop Java applications and applets. It includes the Java compiler (javac), the Java Runtime Environment (JRE), an interpreter/loader (java), an archiver (jar), a documentation generator (Javadoc), and other tools needed for Java development. Essentially, the JDK is a superset of the JRE and is intended for Java developers.
 
-![ JDK features ](images\jdk-jre-jdt-jvm.png)
+![ JDK features ](images/jdk-jre-jdt-jvm.png)
 
 ## Maven
 ## Junit 
