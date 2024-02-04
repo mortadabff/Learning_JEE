@@ -49,14 +49,14 @@ Maven's core feature is its *dependency management system*. It automatically dow
 4. Plugin Ecosystem
 ###### Key Elements of a POM File
 
-* <modelVersion>: Specifies the version of the object model Maven uses. This is always 4.0.0 for current versions of Maven.
-* <groupId>: Defines the id of the project's group. This is generally unique among an organization or a project. It's often used to structure the package name.
-* <artifactId>: The id of the artifact (project) itself. This is the name of the JAR without version if the project is packaged as a JAR.
-* <version>: The version of the artifact under the specified group.
-* <packaging>: Defines how the project should be packaged. Common types include jar, war, and ear. The default is jar.
-* <dependencies>: Lists the dependencies required by the project. Each dependency is specified by its groupId, artifactId, and version. Maven automatically downloads these from the central repository or from other specified repositories.
-* <build>: Contains build-related information, including plugins and other elements used during the build process.
-* <plugins>: Within the <build> section, this element contains plugins that extend the capabilities of Maven, such as compiling code, running tests, creating JAR files, 
+*     <modelVersion>: Specifies the version of the object model Maven uses. This is always 4.0.0 for current versions of Maven.
+*     <groupId>: Defines the id of the project's group. This is generally unique among an organization or a project. It's often used to structure the package name.
+*     <artifactId>: The id of the artifact (project) itself. This is the name of the JAR without version if the project is packaged as a JAR.
+*     <version>: The version of the artifact under the specified group.
+*     <packaging>: Defines how the project should be packaged. Common types include jar, war, and ear. The default is jar.
+*     <dependencies>: Lists the dependencies required by the project. Each dependency is specified by its groupId, artifactId, and version. Maven automatically downloads these from the central repository or from other specified repositories.
+*     <build>: Contains build-related information, including plugins and other elements used during the build process.
+*     <plugins>: Within the <build> section, this element contains plugins that extend the capabilities of Maven, such as compiling code, running tests, creating JAR files, 
 
 ###### Maven for JEE 
 For Java EE (Enterprise Edition) projects, Maven can manage dependencies such as servlet APIs, EJBs (Enterprise JavaBeans), and JPA (Java Persistence API) implementations. Here's a simplified example of how you might set up a Maven
