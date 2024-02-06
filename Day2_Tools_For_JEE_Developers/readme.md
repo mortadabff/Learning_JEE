@@ -83,3 +83,7 @@ JUnit is a popular framework for unit testing in Java. Maven can manage JUnit de
 
 ## Containers
 ## Apache Tomcat  
+
+
+# The folder "FirstApp_Java_simple_archetype" 
+this folder contains a simple JAVA porject with maven , it's a simple archetype for testing Junit , where i've written a class "operation" and a test class "operationTest" where we find methodes for testing  
