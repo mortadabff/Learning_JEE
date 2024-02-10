@@ -10,7 +10,7 @@ Subscription: Observers subscribe to the subject to receive notifications.
 Notification: When a state change occurs in the subject, it notifies all subscribed observers by calling their update method.
 Update: Each observer takes necessary actions in response to the notification.
 # Concret example: Youtube notifications
-in this Folder you will find a simple implementation od thi design pattern  that you can add to a maven project and test it using Junit ;
+in this Folder you will find a simple implementation od thi design pattern 
 the subject is : Youtube channel
 The observer is :   Observer interface 
 The concret observer is : Subscriber 
