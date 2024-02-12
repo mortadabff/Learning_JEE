@@ -9,11 +9,11 @@ public class CoffeeWithMilk extends CoffeeDecorator {
 
     @Override
     public String getDescription() {
-        return decoratedCoffee.getDescription() + ", with sugar";
+        return decoratedCoffee.getDescription() + ", with milk";
     }
 
     @Override
     public double cost() {
-        return decoratedCoffee.cost() + 0.3;
+        return decoratedCoffee.cost() + 0.5;
     }
 }
