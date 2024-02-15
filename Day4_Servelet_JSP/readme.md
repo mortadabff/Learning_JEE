@@ -45,3 +45,7 @@ Both CGI (Common Gateway Interface) and Java Servlets have their advantages and 
 4. Runtime Environment: Servlets require a Java runtime and a servlet container, which can be more resource-intensive to maintain than the lightweight servers typically used for CGI.
 
 In summary, while CGI scripts are simple and flexible, they are not efficient for high-load scenarios. Servlets, on the other hand, offer better performance and scalability but require a commitment to the Java language and environment. The choice between CGI and Servlets will depend on the specific requirements of the project, the expected traffic, the existing infrastructure, and the development team's expertise.
+
+
+# What you find in this folder :
+### 1. A folder named "my-servlet-app1" :it contains a simple Web JEE project , where we have just 2 simple servlets
