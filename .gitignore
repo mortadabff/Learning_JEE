@@ -1,7 +1,10 @@
-# Ignorer les fichiers de configuration de l'IDE
+# Ignorer les fichiers de configuration de l'IDE dans tous les sous-dossiers
 **/.settings/
 
-# Ignorer les dossiers bin et target pour tous les projets
+# Ignorer les dossiers bin et target dans tous les sous-projets
 **/bin/
 **/target/
-git
+
+# Ignorer les fichiers spécifiques à l'IDE Eclipse
+**/.classpath
+**/.project
