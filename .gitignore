@@ -1,0 +1,7 @@
+# Ignorer les fichiers de configuration de l'IDE
+**/.settings/
+
+# Ignorer les dossiers bin et target pour tous les projets
+**/bin/
+**/target/
+git
